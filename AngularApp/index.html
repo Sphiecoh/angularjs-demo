@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+    <html ng-app="artistsearch">
+    <head>
+        <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+        <link href="asserts/loading-bar.min.css" rel="stylesheet" />
+      <link href="asserts/app.css" rel="stylesheet" />
+    
+    </head>
+    <body>
+
+        <div class="container">
+
+            <header>
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#/search">iTunes Seach</a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#/search"><i class="fa fa-home"></i> Search</a></li>
+                            <li><a href="#/about"><i class="fa fa-lock"></i> About</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div id="page-wrapper">
+                <div id="main">
+
+                    <div ng-view></div>
+
+                </div>
+            </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+            <script src="app.js"></script>
+            <script src="controllers/artistController.js"></script>
+            <script src="services/artistService.js"></script>
+            <script src="asserts/loading-bar.min.js"></script>
+</body>
+    </html>

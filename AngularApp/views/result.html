@@ -1,0 +1,34 @@
+<div class="jumbotron">
+    <h1>Welcome</h1>
+    <p>You can search your favourite artists here and see their songs and albums.You can also listen to the songs you like.</p>
+    
+</div>
+<div>
+    Enter artist name :
+        <input type="search" ng-model="term" />
+        <input type="button" value="Search" ng-click="search(term)" />
+   
+    </div>
+<div>
+    <table class="table table-striped" ng-show="results.length > 0">
+        <thead>
+            <tr>
+                <th>Artist</th>
+                <th>Title</th>
+                <th>Art Work</th>
+                <th>Type</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="result in results">
+                <td>{{result.artistName}}</td>
+                <td>{{result.trackName}}</td>
+                <td><img ng-src="{{result.artworkUrl60}}" alt="no artwork" /></td>
+                <td>{{result.kind}}</td>
+                <td><a href="{{result.previewUrl}}">Listen</a></td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\bin\AngularApp.dll.config
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\bin\AngularApp.dll
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\bin\AngularApp.pdb
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\obj\Debug\AngularApp.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\obj\Debug\AngularApp.dll
+\\psf\home\documents\visual studio 2013\Projects\AngularQuickStart\AngularApp\obj\Debug\AngularApp.pdb
